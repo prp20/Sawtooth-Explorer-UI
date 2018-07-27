@@ -42,7 +42,7 @@ export class FrontPageComponent implements OnInit{
 		
 	console.log('D3.js version:', d3['version']);
     // D3.js graph function 
-	// here the returned values from the buildGraph function which contains the link values needs to be passed to the  links variable in line 70 
+	// here the returned values from the buildGraph function which contains the link values needs to be passed to the  links variable in line 64 
     const svg = d3.select('svg');
     const width = +svg.attr('width');
     const height = +svg.attr('height');
