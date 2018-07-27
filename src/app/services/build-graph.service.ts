@@ -80,10 +80,10 @@ import 'rxjs/add/operator/toPromise';
 		}
 	}  
 	
-	// this function tried to build a graph
+	// we try to build the graph in this function
 	// here initially we make a call to the getPeers function which in turn makes a get request and obtains the peers of the initial nodeName
 	// these peers obtained is stored in the toBeVisited[] and the ones already visited is pushed into Visited array[]
-	// the link object is created in line 103 which will be pushed into the link[] to create an array of links;
+	// the link object is created in line 102 which will be pushed into the link[] to create an array of links;
 	buildGraph() {
 		let deferred = Q.defer();
 		let obj = this;	
@@ -140,7 +140,3 @@ import 'rxjs/add/operator/toPromise';
 			});			
 		}
 }
-// To be done
-// pass the Link[] values from the buildGraph function to frontPageComponent class.
-// from line 128 till line 134 , make the code synchronous 
-//
