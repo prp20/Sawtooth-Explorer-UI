@@ -26,7 +26,7 @@ explorer connects to the rest api, change the value of `apiUrl` in
 The minified and compiled web assets are also served at `http://localhost:8091`.
 
 ## UI Development
-The UI here is developed using D3.js. Please refer [D3js.org] for more information 
+The UI here is developed using D3.js. Please refer [D3 library](http://D3js.org) for more information 
 
 ## Local development
 The `explorer` container is where you'll perform most development related
